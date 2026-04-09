@@ -9,28 +9,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#formacoes">Formações</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contatos">Contatos</a></li>
-        <div class="buttons">
-          <button onclick="changeThemeToggle()">
-            <i class="fa fa-moon-o">
-              Change theme
-            </i>
-          </button>
-        </div>
-      </ul>
-    </nav>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contatos">Contatos</a></li>
+          
+          <div class="buttons">
+            <button onclick="changeThemeToggle()">
+              <i class="fa fa-moon-o">
+                Change theme
+              </i>
+            </button>
+          </div>
+        </ul>
+      </nav>
+    </header>
     
     <section id="home" class="home-page">
-      <h1>João Victor Araújo.</h1>
-      <h2>Deselvonvedor Front-End - JavaScript, React.JS e Node.JS</h2>
-      <p>Bem-vindo ao meu portifólio.</p>
-
-      <!--ADICIONAR FOTO-->
+      <div class="grid-home">
+        <h1>João Victor Araújo.</h1>
+        <h2>Deselvonvedor Front-End - JavaScript, React.JS e Node.JS</h2>
+        <p>Bem-vindo ao meu portifólio.</p>
+        
+        <div class="grid-home-img">
+          <!--ADICIONAR FOTO-->
+        </div>
+      </div>
 
       <div class="buttons-home">
         <a href="https://github.com/4rauj6">
@@ -46,6 +53,22 @@
             </i>
           </button>
         </a>
+      </div>
+    </section>
+
+    <section class="sobre" id="sobre-mim">
+      <h2>Uma breve descrição minha</h2>
+      <p>Meu nome é João Victor Araújo de Sousa e sou desenvolvedor Front-End. Especializado e graduado em Analise e desenvolvimento de sistemas pelo SENAI, sou um aspirante a programador, que está em busca de uma primeira oportunidade solida e profissional na criação de sites e aplicativos mobile que levem praticidade e experiências digitais unicas para cada tipo de usuário, utilizando as ferramentas mais atuais que existem atualmente. Tenho uma carga horária consolidada no desenvolvimento de sistemas, Além de diversas contribuições em projetos de outros colegas programadores.</p>
+    </section>
+
+    <section class="meus-projetos" id="projetos">
+      <div class="melhores-projetos">
+        <h2>Projetos em destaque</h2>
+        <hr>
+
+        <div class="images-projetos">
+            
+        </div>
       </div>
     </section>
   </body>
