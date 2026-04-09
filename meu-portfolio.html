@@ -2,51 +2,50 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Minha página de teste</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bem-vindo ao meu portifólio!</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#formacoes">Formações</a></li>
-        <li><a href="#linguagens">Linguagens e etc...</a></li>
-        <li><a href="#home">Resumo</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contatos">Contatos</a></li>
         <div class="buttons">
-          <button onclick="change-theme-trigger()"><i class="fa fa-moon"></i>Change theme</button>
+          <button onclick="change-theme-trigger()">
+            <i class="fa fa-moon-o">
+              Change theme
+            </i>
+          </button>
         </div>
       </ul>
     </nav>
     
-    <section id="home">
-      *add foto*
-      <h1>João Victor Araújo de Sousa - Programador Front-End.</h1>
-      <h2>Bem-vindo ao meu portifólio.</h2>
-    </section>
-    
-    <div class="informacoes-1">
-      <p>Desde meus primeiros anos de vida sempre fui um apaixonado pelas tecnológias. Aos 15 anos tomei uma decisão que me acompanharia atéos dias de hoje: Ser um programador. Assim como muitos iguais a mim, ingressei neste ramo pela paixão e curiosidade pela área.</p>
-      <hr>
-    </div>
-    
-    <section id="formacoes">
-      <h2>Formações.</h2>
-      <h3>Técnico em desenvolvimento e análise de softwares - SENAI</h3>
-      <P>Curso de 2 anos e meio, onde desenvolvi minhas habilidades (tanto Soft Skills quanto  Hard Skills) e diversos projetos voltados ao Front-End Aprendi do básico ao avançado dentro da temática do Front-End. Conheci Frameworks e bibliotecas; como o React, Vue, Node.JS e Tailwind.</P>
-    </section>
-    
-    <section id="linguagens">
-      <h2>Linguagens, Frameworks e biblitecas que domino.</h2>
-      <div class="html">
-        *add html logo*
-        <p><strong>HTML</strong></p>
-        <p>O HTML está nas primeiras paginas para qualquer desenvolvedor, sendo o esqueleto de todo Web-Site, o HyperText Makeup Languege serve como um esboço daquilo que será o seu site. Utilizo o HTML em todo site que construo, incluse neste aqui.</p>
-      </div>
-      
-      <div class="CSS">
-        *add css logo*
-        <P><strong>CSS</strong></P>
-        <p></p>
+    <section id="home" class="home-page">
+      <h1>João Victor Araújo.</h1>
+      <h2>Deselvonvedor Front-End - JavaScript, React.JS e Node.JS</h2>
+      <p>Bem-vindo ao meu portifólio.</p>
+
+      <!--ADICIONAR FOTO-->
+
+      <div class="buttons-home">
+        <a href="https://github.com/4rauj6">
+          <button>
+            <i class="fa fa-github" aria-hidden="true">
+              GitHub</i>
+          </button>
+        </a>
+        <a href="#baixar-curriculo">
+          <button>
+            <i class="fa fa-address-card" aria-hidden="true">
+              Curriculum Vitae
+            </i>
+          </button>
+        </a>
       </div>
     </section>
   </body>
